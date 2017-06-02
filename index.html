@@ -1,0 +1,618 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<meta charset="utf-8">
+<title>proyecto final</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+
+<script src="phonegap.js"></script><!-- necesario*/ -->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/3bio.jpg','imagenes/6bio.jpg','imagenes/11dg.jpg','imagenes/14ar.jpg','imagenes/18ar.jpg','imagenes/7dg.jpg')">
+
+<div data-role="page" id="Principal" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1> CARRERAS UNIVERSITARIAS </h1>
+  </div><br>
+    
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/13ar.jpg" alt="13ar" title="13ar" id="wows2_0"/></li>
+		<li><img src="data2/images/2bio.jpg" alt="2bio" title="2bio" id="wows2_1"/></li>
+		<li><img src="data2/images/7dg.jpg" alt="7dg" title="7dg" id="wows2_2"/></li>
+		<li><img src="data2/images/9v.png" alt="9V" title="9V" id="wows2_3"/></li>
+		<li><img src="data2/images/10v.jpg" alt="10V" title="10V" id="wows2_4"/></li>
+		<li><img src="data2/images/11v.jpg" alt="11V" title="11V" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/12v.jpg" alt="wow slider" title="12V" id="wows2_6"/></a></li>
+		<li><img src="data2/images/13.jpg" alt="13" title="13" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="13ar"><span><img src="data2/tooltips/13ar.jpg" alt="13ar"/>1</span></a>
+		<a href="#" title="2bio"><span><img src="data2/tooltips/2bio.jpg" alt="2bio"/>2</span></a>
+		<a href="#" title="7dg"><span><img src="data2/tooltips/7dg.jpg" alt="7dg"/>3</span></a>
+		<a href="#" title="9V"><span><img src="data2/tooltips/9v.png" alt="9V"/>4</span></a>
+		<a href="#" title="10V"><span><img src="data2/tooltips/10v.jpg" alt="10V"/>5</span></a>
+		<a href="#" title="11V"><span><img src="data2/tooltips/11v.jpg" alt="11V"/>6</span></a>
+		<a href="#" title="12V"><span><img src="data2/tooltips/12v.jpg" alt="12V"/>7</span></a>
+		<a href="#" title="13"><span><img src="data2/tooltips/13.jpg" alt="13"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section --> <br>
+
+
+     <div>
+      <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+      <li class="ui-first-child ui-last-child">
+        <a href="=#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>BIOQUÍMICA</h2>
+         <p>Información</p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="=#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>DISEÑO GRAFICO</h2>
+         <p>Información</p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="=#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>ARQUITECTURA</h2>
+         <p>Información</p>
+        </a>
+       </li>
+       </ul>
+  </div>  
+      
+     
+
+          
+  <div data-role="main" class="ui-content" align="center">
+ <div style="width:auto;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ <li class="ui-first-child ui-last-child">
+ <a href="http://noticias.universia.es/practicas-empleo/noticia/2014/02/12/1081179/20-carreras-mayor-futuro-laboral.html" data-role="button" id="bio3">
+       <h2>   más información <BR> carreras universitarias ...</h2>
+</a>
+</li>
+ <li class="ui-first-child ui-last-child">
+ <a href="http://udes.edu.mx/nuestra-oferta/licenciaturas/?gclid=CIu0nuvEmtQCFVG4wAodvmwK6Q" data-role="button" id="bio3">
+       <h2>   más información <BR>  universidades ...</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+ <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>ELABORADO POR: </h1>
+       <div>
+         <table width="333" height="382" border="1" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="124" valign="top"><p><strong>PLANTEL: </strong><img width="44" height="39" src="imagenes/LO.png" align="left" hspace="12"></p></td>
+            <td colspan="6" valign="top"><p>C.B.T.i.s    16</p></td>
+          </tr>
+          <tr>
+            <td width="124" valign="top"><p><strong>MÓDULO:</strong></p></td>
+            <td colspan="6" valign="top"><p><strong>Desarrolla    aplicaciones web y móviles</strong></p></td>
+          </tr>
+          <tr>
+            <td colspan="3" valign="top"><p><strong>SUBMÓDULO:</strong></p></td>
+            <td colspan="4" valign="top"><p><strong>Desarrolla Aplicaciones  Móviles </strong></p></td>
+          </tr>
+          <tr>
+            <td colspan="3" valign="top"><p><strong>ESPECIALIDAD:</strong></p></td>
+            <td colspan="4" valign="top"><p><strong>PROGRAMACIÓN</strong></p></td>
+          </tr>
+          <tr>
+            <td colspan="3" valign="top"><p><strong>NOMBRE DEL MAESTRO:</strong></p></td>
+            <td colspan="4" valign="top"><p><strong>Lic. José Antonio Gómez  Hernández</strong></p></td>
+          </tr>
+          <tr>
+            <td colspan="4" valign="top"><p><strong>NOMBRE DEL ALUMNO:</strong></p></td>
+            <td colspan="3" valign="top"><p><strong>Catarino    Duran Anayeli</strong></p></td>
+          </tr>
+          <tr>
+            <td colspan="2" valign="top"><p><strong>SEMESTRE</strong>: 4°</p></td>
+            <td colspan="3" valign="top"><p>GRUPO: <strong>&ldquo;G&rdquo;</strong></p></td>
+            <td width="90" valign="top"><p>GENERO: <strong>MUJER</strong></p></td>
+            <td width="54" valign="top"><p>EDAD: <strong>17 AÑOS</strong></p></td>
+          </tr>
+          <tr>
+            <td height="26" colspan="7" valign="top"><p><strong>PERIODO: FEBRERO-JULIO 2017</strong></p></td>
+          </tr>
+        </table>
+<br>
+      </div>
+      </div>
+     </div>
+
+      
+        <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/14ar.jpg" alt="14ar" title="14ar" id="wows1_0"/></li>
+		<li><img src="data1/images/1bio.jpg" alt="1bio" title="1bio" id="wows1_1"/></li>
+		<li><img src="data1/images/1v.jpg" alt="1v" title="1v" id="wows1_2"/></li>
+		<li><img src="data1/images/2v.jpg" alt="2v" title="2v" id="wows1_3"/></li>
+		<li><img src="data1/images/3v.jpg" alt="3v" title="3v" id="wows1_4"/></li>
+		<li><img src="data1/images/5bio.jpg" alt="5bio" title="5bio" id="wows1_5"/></li>
+		<li><img src="data1/images/5dg.jpg" alt="5dg" title="5dg" id="wows1_6"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/6dg.jpg" alt="jquery slider" title="6dg" id="wows1_7"/></a></li>
+		<li><img src="data1/images/10ar.jpg" alt="10ar" title="10ar" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="14ar"><span><img src="data1/tooltips/14ar.jpg" alt="14ar"/>1</span></a>
+		<a href="#" title="1bio"><span><img src="data1/tooltips/1bio.jpg" alt="1bio"/>2</span></a>
+		<a href="#" title="1v"><span><img src="data1/tooltips/1v.jpg" alt="1v"/>3</span></a>
+		<a href="#" title="2v"><span><img src="data1/tooltips/2v.jpg" alt="2v"/>4</span></a>
+		<a href="#" title="3v"><span><img src="data1/tooltips/3v.jpg" alt="3v"/>5</span></a>
+		<a href="#" title="5bio"><span><img src="data1/tooltips/5bio.jpg" alt="5bio"/>6</span></a>
+		<a href="#" title="5dg"><span><img src="data1/tooltips/5dg.jpg" alt="5dg"/>7</span></a>
+		<a href="#" title="6dg"><span><img src="data1/tooltips/6dg.jpg" alt="6dg"/>8</span></a>
+		<a href="#" title="10ar"><span><img src="data1/tooltips/10ar.jpg" alt="10ar"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">css slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+ <BR>
+    
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Anayeli Catarino Duran,Decima Aplicación  </h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+    <BR> Guia de carreras 
+ </div>
+</div>
+
+
+
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar al menú" data-back-btn-theme="b">
+         <h1> BIOQUÍMICA </h1>
+        </div>
+        
+        <div>
+          <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+          <li class="ui-first-child ui-last-child">
+        <a href="=#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>DEFINICIÓN </h2>
+         <p>Información</p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="=#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Ramas </h2>
+         <p>Información</p>
+        </a>
+      </li>
+      </ul>
+       </div>                
+       
+        <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Anayeli Catarino Duran, Decima Aplicación  </h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>
+
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar al menú" data-back-btn-theme="b">
+       <h1>Diseño Grafico </h1>
+      </div>
+      
+      <div>
+          <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+          <li class="ui-first-child ui-last-child">
+        <a href="=#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>DEFINICIÓN </h2>
+         <p>Información</p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="=#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Ramas </h2>
+         <p>Información</p>
+        </a>
+      </li>
+      </ul>
+  </div>                
+  
+
+        
+ <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Anayeli Catarino Duran, Decima Aplicación  </h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>
+ 
+    
+   
+         
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b"> 
+       
+        <h1>ARQUITECTURA </h1>
+       </div>
+       
+         <div>
+          <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+          <li class="ui-first-child ui-last-child">
+        <a href="=#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>DEFINICIÓN </h2>
+         <p>Información</p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="=#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Ramas </h2>
+         <p>Información</p>
+        </a>
+      </li>
+      </ul>
+  </div>                
+  
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Anayeli Catarino Duran, Decima Aplicación  </h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>
+  
+  
+  
+  
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b"> 
+        <h1>DEFINICIÓN</h1>
+       </div>
+       <div data-role="content" align="center">
+        <div>
+          <p>&nbsp;</p>
+          <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/3bio.jpg',1)"><img src="imagenes/2bio.jpg" width="325" height="189" id="Image8"></a></p>
+          <p><strong>La bioquímica es una ciencia;que  estudia la químicade  la vida; es decir, pretende describir la estructura, la organización y las  funciones de lamateria viva  en términos moleculares.Esta ciencia es una rama de la Química y de la Biología. Puede dividirse  en tres áreas principales: 1) la química estructuralde los  componentes de la materia viva y la relación de la función biológica con la  estructura química; 2) el&nbsp;metabolismo, la totalidad de las reacciones  químicas que se producen en la materia viva; y 3) la química de los procesos y  las sustancias que almacenan y transmiten la información biológica. Esta  última también es el área de la genética molecular.</strong></p>
+          <p>&nbsp;</p>
+          <p><strong>La bioquímica es una ciencia interdisciplinar, ya que extrae sus  temas de interés de muchas disciplinas tales como laquímica orgánica,  biofísica, medicina ,  nutrición, microbiología, fisiología, biología celular y genética.</strong><br>
+            <strong>Esta ciencia surgió a mitad del siglo XIX, cuando el científico Frederik  Wohler descubrió que una molécula biológica como la urea, se podía sintetizar a  partir de un componente no vivo, por medio del calentamiento de un compuesto  inorgánico, el cianato amónico. Este descubrimiento abrió el camino al análisis  de las reacciones metabólicas y los procesos bioquímicos in vitro (en tubo de  ensayo en vez de in vivo, en materia viva).</strong></p>
+          <p><strong><img src="imagenes/1bio.jpg" width="276" height="211" alt="k"></strong><br>
+            <strong>Posteriormente, fueron identificándose reactivos y productos de las  enzimas, o catalizadores biológicos, que fomentaban cada una de las reacciones  biológicas. Paralelamente con estos avances, los biólogos celulares fueron  conociendo mas la estructura celular, como las proteínas y ácidos nucleídos, se  descubrieron los cromosomas, y se dieron cuenta que los genes debían  encontrarse en éstos últimos.</strong><br>
+            <strong>En los años 40 y comienzo de 50, se demostró que el ácido  desoxirribonucleico (ADN) es el portador de la información genética. Y en 1953,  Watson y Crick describieron la estructura de doble hélice del ADN, siendo uno  de los avances más importantes en la historia de la ciencia. Fue entonces como  la bioquímica, biología celular y genética se entrelazaron formando la biología  molecular.</strong><br>
+            <strong>Los estudios bioquímicos han permitido avances en el tratamiento de  muchas enfermedades metabólicas, y en conocer más sobre el genoma humano. Así  como en el campo de la medicina, también se aplica en la odontología,  agricultura, práctica forense, antropología, ciencias ambientales, entre otros.</strong></p>
+            
+            
+          <div data-role="main" class="ui-content" align="center">
+            <div style="width:auto;">
+              <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+                <li class="ui-first-child ui-last-child">
+                  <h2><a href="http://www.ipn.mx/educacionsuperior/Paginas/Ing-Bioquimica.aspx" data-role="button" id="bio2">Universidad <br>
+                    más información ...</a></h2>
+                </li>
+              </ul>
+            </div>
+          </div>
+               
+          
+          
+          <div data-role="collapsible" data-content-theme="false">
+            <h1>Definición y Aplicación </h1>
+            <div>
+              <p>Como diciplina y ciencia </p>
+              <br>
+            </div>
+            <div> <img src="imagenes/4bio.jpg" width="71%" height="47%"> </div>
+          </div>
+          <p></p>
+         <h2>&nbsp;</h2> </div>
+  </div>
+       <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Anayeli Catarino Duran, Decima Aplicación  </h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>
+</div>    
+  
+  
+  
+  
+  <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b"> 
+       <h1>Ramas</h1>
+    </div>
+<div data-role="content" align="center">
+        <div>
+          <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/6bio.jpg',1)"><img src="imagenes/5bio.jpg" width="306" height="250" id="Image10"></a></p>
+          
+          <p>El pilar fundamental de la investigación bioquímica se centra en las propiedades de las proteínas, muchas de las cuales son enzimas. Por razones históricas la bioquímica del metabolismo de la célula ha sido intensamente investigado, en importantes líneas de investigación actuales (como el Proyecto Genoma, cuya función es la de identificar y registrar todo el material genético humano), se dirigen hacia la investigación del ADN, el ARN, la síntesis de proteínas, la dinámica de la membrana celular y los ciclos energéticos.
+            Las ramas de la bioquímica son muy amplias y diversas, y han ido variando con el tiempo y los avances de la biología, la química y la física.</p>
+          <p> •Biología celular: (citología) es una área de la biología que se dedica al estudio de la morfología y fisiología de las células procariotas y eucariotas. Trata de conocer los orgánulos celulares, su composición bioquímica y su función en el contexto celular tanto en estados fisiológicos como patológicos. Es un área esencialmente de observación y experimentación en cultivos celulares, que, frecuentemente, tienen como objetivo la identificación y separación de poblaciones celulares y el reconocimiento de orgánulos celulares. Algunas técnicas utilizadas en biología celular tienen que ver con siembra de cultivos celulares, observación por microscopía óptica y electrónica, inmunocitoquímcia, inmunohistoquímica, ELISA o citometría de flujo.</p>
+          <p> •Química orgánica: es un área de la química que se encarga del estudio de los compuestos orgánicos, es decir, aquellos que tienen enlaces covalentes carbono-carbono o carbono-hidrógeno. Se trata de una ciencia íntimamente relacionada con la bioquímica, pues en la bioquímica la mayoría de compuestos biológicos participa el carbono.</p>
+          <p> •Genética molecular e ingeniería genética: es un área de la bioquímica y la biología molecular que estudia los genes, su herencia y su expresión. También estudia la inserción de genes, el silenciamiento génico y la expresión diferencial de genes y sus efectos.</p>
+          <p> •Inmunología: área de la biología, la cual se interesa por la reacción del organismo frente a otros organismos como las bacterias y virus.            </p>
+          <p>•Virología: área de la biología, que se dedica al estudio de los biosistemas más elementales: los virus. Tanto en su clasificación y reconocimiento, como en su funcionamiento y estructura molecular.
+            •Farmacología: área de la bioquímica que estudia cómo afectan o benefician ciertas sustancias químicas al funcionamiento celular en el organismo.</p>
+          <p> •Enzimología: área de la bioquímica muy ligada a la farmacología. Estudia el comportamiento de los catalizadores biológicos o enzimas, como son algunas proteínas y ciertos RNA catalíticos.            </p>
+          <p>•Estructura de macromoléculas o bioquímica estructural: es un área de la bioquímica que pretende comprender la arquitectura química de las moléculas biológicas especialmente de las proteínas y de los ácidos nucleicos (DNA y RNA).            </p>
+          <p>•Metabolismo y su regulación: es un área de la bioquímica que pretende conocer los diferentes tipos de rutas metabólicas a nivel celular, y su contexto orgánico. </p>
+          <p>&nbsp;</p>
+          
+          <div data-role="main" class="ui-content" align="center">
+            <div style="width:auto;">
+              <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+                <li class="ui-first-child ui-last-child">
+                  <h2><a href="http://ramasdelaquimica.com/ramas-de-la-quimica-bioquimica/" data-role="button" id="bio3">
+           más información ...</a></h2>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+           <div data-role="collapsible" data-content-theme="false">
+            <h1>Expectativas </h1>
+            <div>
+              <p>&nbsp;</p>
+              <br>
+            </div>
+            <div> <img src="imagenes/bio7.jpg" width="58%" height="36%"> </div>
+          </div>
+    </div>
+          
+          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Anayeli Catarino Duran, Decima Aplicación  </h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>
+</div>    
+</div>
+
+
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b"> 
+        <h1>DEFINICIÓN </h1>
+       </div>
+       <div data-role="content" align="center">
+        <div>
+         <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/7dg.jpg',1)"><img src="imagenes/6dg.jpg" width="310" height="162" id="Image16"></a></p>
+         <p><strong>El diseño gráfico es una especialidad o profesión, cuyo objetivo es  satisfacer necesidades de comunicación visual. Se ocupa de organizar imagen y  texto, producidos en general por medios industriales, para comunicar un mensaje  específico, a un determinado grupo social y con objetivos claros y definidos.</strong> </p>
+         <p><strong>Existen diversos tipos de diseños gráficos:</strong><br>
+           <strong>Diseño de persuasión: este tipo de diseño se encuentra orientado hacia la  publicidad. Consiste en influir en la conducta del sujeto que observa dicho  diseño; siendo empleado con frecuencia por empresas comerciales para poder  atraer al público.</strong><br>
+         <strong>Diseño para la administración: esta clase de diseño es empleado para la  creación de formularios, billetes, facturas, etc</strong></p>
+         <p><strong>.</strong><img src="imagenes/5dg.jpg" width="284" height="256" alt="l"><br>
+           <strong>Diseño para la información: está dedicado a la fabricación de revistas,  periódicos, libros, etc. de igual manera se emplea para la fabricación de  señales de tránsito.</strong><br>
+           <strong>Diseño de educación: este estilo de diseño se aplica en el ámbito de la  enseñanza, al tener que diseñar toda clase de libros escolares, fichas  didácticas, etc.</strong><br>
+           <strong>Diseños de instrumentos de mando: es empleado en la confección de todo  tipo de mandos que existen como cámaras, relojes, computadoras.</strong><br>
+           <strong>La importancia del diseño gráfico se fundamenta en que él mismo  desarrolla diferentes estrategias para lograr una comunicación desde un enfoque  visual; este hecho es de suma relevancia desde el punto de vista de marketing,  ya que hace posible la elaboración de distintas presentaciones que  inmediatamente comunicaran valor a un potencial comprador.</strong><br>
+           <strong>Un entorno en donde el diseño gráfico tiene un enorme peso es en el de la  fabricación de periódicos y revistas; ya que si se pretende generar algún tipo  de fidelización por parte del público, todos los elementos visuales deben estar  diseñados de una forma estética.</strong><br>
+           <strong>El diseño gráfico se apoya en un grupo de elementos que ayudan a concebir,  organizar, proyectar, y realizar comunicaciones visuales u obras gráficas.  Algunos de ellos son: el punto, la línea y el plano, el espacio y el volumen,  la asimetría y simetría, el ritmo y el equilibrio, la textura y el color, la  figura y el fondo, el tiempo y movimiento.</strong><br>
+           <strong>En la actualidad las herramientas digitales se han impuesto, al momento  de crear diseños gráficos, algunas de ellas son: Adobe Photoshop, adobe  illustrator, Publisher, Pixie, entre otros.</strong></p>
+        
+        <div data-role="main" class="ui-content" align="center">
+ <div style="width:auto;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ <li class="ui-first-child ui-last-child">
+ <a href="http://albabucio.weebly.com/areas-del-disentildeo-graacutefico.html" data-role="button" id="dg" >
+ 
+<h2>Universidad <br> más información ...</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+             
+        <div data-role="collapsible" data-content-theme="false">
+            <h1>Expectativas </h1>
+            <div>
+              <p>&nbsp;</p>
+              <br>
+            </div>
+            <div> <img src="imagenes/8dg.jpg" width="55%" height="43%"> </div>
+          </div>
+         </div>
+  
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Anayeli Catarino Duran, Decima Aplicación  </h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>
+</div>    
+
+
+    
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b"> 
+        <h1>Ramas </h1>
+       </div>
+       <div data-role="content" align="center">
+        <div>
+   
+   </div>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/11dg.jpg',1)"><img src="imagenes/10dg.jpg" width="276" height="183" id="Image18"></a></p>
+        <p>&nbsp;</p>
+        <p>El campo del diseño gráfico abarca cuatro áreas fundamentales, cuyos límites se superponen parcialmente en la actividad profesional. La clasificación se basa en la noción de que cada una de las áreas requiere una preparación y un talento especial o asesoramiento especial de acuerdo a la complejidad del proyecto. Las áreas son:         </p>
+        <p>Diseño para información: incluye el diseño editorial. Generalmente estos productos se clasifican de acuerdo al tamaño de información que disponen en carteles, flyers o volantes, libros, periódicos, revistas, catálogos, CD, DVD, etc. Además abarca la señalética, que incluye señales de peligro, señales de tráfico, señales de banderas marítimas, señales de ferrocarril, entre otras. Los folletos se clasifican de acuerdo a su número de páginas y pueden ser dípticos (dos páginas), trípticos (tres páginas), etc. También se los divide en publicitarios,11 propagandísticos, turísticos, entre otros. Dentro de esta clasificación entra también la infografía, mapas, gráficos y viñetas.         </p>
+        <p>Diseño para persuasión: Es el diseño de comunicación destinado a influir sobre la conducta del público. Incluye la publicidad y la propaganda. Además entran en esta clasificación la identidad corporativa que comprende marcas, iso-logotipo, papelería comercial y fiscal, billetes, aplicación de marca en arquigrafía e indumentaria, gráfica vehicular; las etiquetas, las cuales pueden ser frontales, colgantes, de seguridad, envolventes, etc.; y los envases, los más comunes son los rígidos, semirrígidos, flexibles y las latas. </p>
+        <p><img src="imagenes/9dg.jpg" width="334" height="166" alt="y"></p>
+        <p>Diseño para educación: Incluye el material didáctico como los manuales instructivos, indicaciones de uso, fichas didácticas educacionales, etcétera. También entran la cartelería de seguridad industrial y señalización de espacios de trabajo.</p>
+        <p> Diseño para administración: Comprende el diseño de formularios, señalética urbana, billetes, sellos postales, pagarés y en general, cualquier pieza que sea susceptible de falsificación.         </p>
+        <p>Diseño tipográfico: tipos sans serif o palo seco, con serif, gestuales, góticas, caligráficas y de fantasía.         </p>
+        <p>Diseño de instrumentos de mandos o también denominado diseño de interfaces: pantallas de relojes digitales, de teléfonos móviles, de cámaras digitales, y otros aparatos. El aspecto visual es la primera impresión que un usuario percibe de un sitio; una apariencia atractiva y funcional es la mejor carta de presentación con la que cuenta un diseñador gráfico para promover credibilidad y confianza en el sitio que diseñó y motivar al usuario a continuar con la exploración de los contenidos. En esta perspectiva, la interfaz gráfica se concibe como una dimensión cuya función es articular la comunicación entre personas y tecnologías para facilitar el acceso a la información y propiciar el aprendizaje significativo.12 </p>
+      </div>
+      
+  <div data-role="main" class="ui-content" align="center">
+            <div style="width:auto;">
+              <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+                <li class="ui-first-child ui-last-child">
+                  <h2><a href="http://albabucio.weebly.com/areas-del-disentildeo-graacutefico.html" data-role="button" id="bio3">
+           más información ...</a></h2>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+      
+           <div data-role="collapsible" data-content-theme="false">
+            <h1>Expectativas </h1>
+            <div>
+              <p>&nbsp;</p>
+              <br>
+            </div>
+            <div> <img src="imagenes/12dg.jpg" width="54%" height="37%"> </div>
+          </div>
+      
+   
+    <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Anayeli Catarino Duran, Decima Aplicación  </h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>
+</div>  
+
+
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b"> 
+        <h1>ARQUITECTURA </h1>
+       </div>
+       
+       
+       <div data-role="content" align="center">
+         <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/14ar.jpg',1)"><img src="imagenes/13ar.jpg" width="250" height="201" id="Image21"></a></p>
+         <p>La arquitectura de un dispositivo está íntimamente  relacionada con las funciones que se espera que lleve a cabo y en el  entendimiento de la misma se esconde el verdadero potencial del hardware. Por  ejemplo, si se toman dos consolas de videojuegos con la misma cantidad de  memoria RAM y con procesadores de igual cantidad de núcleos y con velocidades  similares, no es correcto asumir que se trata de dos equipos de poderío  equivalente, ya que cada una puede trabajar de formas muy diferentes a pesar  del parecido de sus especificaciones técnicas.<br>
+           El funcionamiento básico de un procesador consiste en  realizar una serie de tareas y operaciones específicas con los datos que se  almacenan en memoria, para producir nueva información, que será usada  posteriormente. Para ello, cada procesador cuenta con un conjunto de  instrucciones que puede comprender y ejecutar, el cual puede clasificarse  teniendo en cuenta los siguientes puntos:</p>
+         <p><img src="imagenes/15ar.jpg" width="277" height="231" alt="u"><br>
+           * Qué operaciones es posible realizar a partir de las  instrucciones dadas;<br>
+           * De qué manera se especifican los operandos, qué tipos  pueden tener y cuál es su tamaño;<br>
+           * Dónde puede ubicarse cada operando. En algunos casos,  todos pueden residir en memoria, mientras que en ciertas arquitecturas es  posible encontrarlos en los registros internos de la unidad central;<br>
+           * de qué forma se especifica la dirección de memoria, o sea,  de qué modos de direccionamiento dispone.</p>
+  </div>
+  
+  <div data-role="main" class="ui-content" align="center">
+ <div style="width:auto;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ <li class="ui-first-child ui-last-child">
+ <a href="http://www.udlap.mx/ofertaacademica/Default.aspx?cveCarrera=LAR" data-role="button" id="dg" >
+ 
+<h2>Universidad <br> más información ...</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div data-role="collapsible" data-content-theme="false">
+            <h1>Expectativas </h1>
+            <div>
+              <p>&nbsp;</p>
+              <br>
+            </div>
+            <div> <img src="imagenes/16ar.jpg" width="57%" height="42%"> </div>
+  </div>
+          
+  
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Anayeli Catarino Duran, Decima Aplicación  </h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>
+</div>    
+        
+        
+                         
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b"> 
+        <h1>Ramas </h1>
+       </div>
+       <div data-role="content" align="center">
+         <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/18ar.jpg',1)"><img src="imagenes/17ar.jpg" width="332" height="152" id="Image25"></a></p>
+         <p>Urbanismo<br>
+           Generalmente se entiende queel urbanismo no es más que la  práctica de la urbanística, la cual es la disciplina científica correspondiente  a la ciencia de la planificación urbana. El urbanismo tradicionalmente se ha  asociado a la arquitectura en cuanto a que esta disciplina se aplica al  conjunto de conocimientos prácticos que proporcionan las bases fundamentales  para resolver los problemas de las ciudades. Esta dualidad permiteentrever el  carácter descriptivo y explicativo de la urbanística como ciencia frente al  carácter prescriptivo del urbanismo como práctica o técnica, incluso como arte,  aunque ambos enfoques son parcialmente correctos y se realimentan mutuamente.<br>
+           Restauración de Monumentos<br>
+           En el campo del arte, la restauración esta vinculada a los  procesos que se llevan a cabo para preservar o devolver la originalidad de un  bien cultural. El restaurador debe revisar la obra de arte en cuestión para  emitir un diagnóstico e intervenir con el objetivo de conservar sus  características originales. Si la obra está afectada por lahumedad o exhibe  otro daño, la restauración consiste en devolverle la belleza tal cual la  concibió el autor.<br>
+           Esta rama se encarga de preparar técnicos con criterio y  competencia profesional para poder valorar el grado de importancia de los  monumentos, subconjuntos y conjuntos monumentales, a fin de poder intervenir en  la reforma interior de los centros históricos.<br>
+           Reconocer la identidad de laspatologías para poder  intervenir de forma respetuosa en la restauración de los monumentos y con las  técnicas más adecuadas.</p>
+         <p><img src="imagenes/19ar.jpg" width="320" height="157" alt="j"></p>
+         <p>Diseños de ambientes<br>
+           El diseño de ambientes es la rama de la arquitectura que se  encarga del proceso de hacer frente a los parámetros ambientales que rodean la  hora de elaborar los planes, programas, políticas, edificios, o de los  productos. Prudente de diseño clásico puedesiempre han considerado los factores  ambientales, sin embargo, el movimiento ambiental a partir de la década de 1960  ha hecho que el concepto más explícito.<br>
+         El &quot;Diseño de Ambientes&quot; se ha definido:  &quot;Vivimos en el mundo del diseño. Creación del entorno cotidiano en el que  vivimos implica complejos sistemas de significado cultural, comunicación visual  y el uso de herramientas, tecnologías y materiales.Como un campo de estudio, el  Diseño de Ambientes abarca la construcción, los materiales, los productos, los  naturales y humanos y se centra en la configuración de las intervenciones  físicas y sociales informados por el comportamiento humano y los procesos  ambientales. </p>
+         <p>&nbsp;</p>
+  </div>
+  
+  <div data-role="main" class="ui-content" align="center">
+            <div style="width:auto;">
+              <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+                <li class="ui-first-child ui-last-child">
+                  <h2><a href="https://www.mindomo.com/es/mindmap/arquitectura-y-sus-ramas-profecionales-9644b2a103fb4d09b4a7604d84270b74" data-role="button" id="bio3">
+           más información ...</a></h2>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+          
+          <div data-role="collapsible" data-content-theme="false">
+            <h1>Expectativas </h1>
+            <div>
+              <p>&nbsp;</p>
+              <br>
+            </div>
+            <div> <img src="imagenes/20ar.jpg" width="51%" height="36%"> </div>
+          </div>
+          
+
+          
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Anayeli Catarino Duran, Decima Aplicación  </h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>
+</div>    
+
+        
+</body>
+</html>
